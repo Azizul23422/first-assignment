@@ -83,6 +83,11 @@ header button{
   gap: 30px;
   margin: 90px;
 }
+.learn-btn{
+  width: 150px;
+  height: 50px;
+  font-family: "Azeret Mono", monospace;
+}
 /* inspiration section */
 
 .inspiration-section{
@@ -141,4 +146,56 @@ header button{
 .link-color{
   color: rgba(13, 19, 33, 1.00);
   
+}
+
+/* footer section */
+
+.footer-section{
+  background-image: url('../assets/handshake.jpg');
+  display: block;
+  width: 1300px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 150px;
+  margin-left: 280px;
+  border-radius: 15px;
+}
+.support{
+  color: white;
+}
+.support-color{
+  color: white;
+  opacity: 70%;
+}
+.suggestion-part{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  align-items: center;
+}
+.btn{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+.border{
+  border-radius: 10px;
+}
+.commitment{
+  padding-left: 140px;
+}
+.social-media{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(13, 19, 33, 0.03);
+  width: 1840px;
+  height: 70px;
+  margin-top: 100px;
+}
+.social-media-icons{
+  padding-right: 150px;
 }
