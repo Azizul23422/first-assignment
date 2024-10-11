@@ -93,9 +93,52 @@ header button{
   padding-left: 150px;
   padding-right: 150px;
 }
+.color{
+  color: rgb(13, 19, 33, 0.7);
+}
 .youtube-video{
   margin-top: 40px;
   border-radius: 15px;
+}
+/* target section */
 
+.target-section{
+  display: block;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 110px;
+}
+.target-cards{
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 100px;
+  align-items: center;
+  padding-left: 50px;
+}
+.first-card{
+  background-color: rgba(255, 76, 30, 0.05);
+  width: 300px;
+  height: 230px;
+  padding: 20px;
+}
+.second-card{
+  background-color: rgba(0, 76, 232, 0.05);
+  width: 300px;
+  height: 230px;
+  padding: 20px;
+}
+.third-card{
+  background-color: rgba(255, 223, 0, 0.05);
+  width: 300px;
+  height: 230px;
+  padding: 20px;
+}
+.link-color{
+  color: rgba(13, 19, 33, 1.00);
   
 }
