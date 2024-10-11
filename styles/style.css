@@ -83,3 +83,19 @@ header button{
   gap: 30px;
   margin: 90px;
 }
+/* inspiration section */
+
+.inspiration-section{
+  display: block;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.youtube-video{
+  margin-top: 40px;
+  border-radius: 15px;
+
+  
+}
